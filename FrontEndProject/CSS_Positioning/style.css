@@ -1,0 +1,42 @@
+/* static 元素跟随正常的文档流 */
+
+/* absolute
+绝对定位的元素的位置相对于最近的已定位父元素，如果元素没有已定位的父元素，那么它的位置相对于<html>
+*/
+
+/* relative */
+
+/* fixed */
+
+html {
+  background-color: #fa923f;
+  padding: 10px;
+  height: 200vh;
+}
+
+body {
+  background-color: yellow;
+  padding: 10px;
+  margin: 0;
+}
+
+header {
+  background-color: #f073e1;
+  margin: 10px;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  background-color: #f073e1;
+  margin: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+footer {
+  background-color: #f073e1;
+  margin: 10px;
+  position: relative;
+}

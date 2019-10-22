@@ -1,0 +1,7 @@
+FrontEndProject
+
+三个远程仓库：
+aliyun  git@47.107.230.11:/home/src/MyNotebook (push)
+gitee   git@gitee.com:tanjiestc/MyNotebook.git (push)
+github  git@github.com:tanjiestc/MyNotebook.git (push)
+
